@@ -5,8 +5,8 @@
 
     // Set the Docker image to use
     // I will explain this below
-    "image":"ewpratten/frc_devcontainer:2020.3.2",
-
+    "image":"carokhan/frc_devcontainer2023",
+ 
     // Set any default VSCode settings here
     "settings": {
         "terminal.integrated.shell.linux":"/bin/bash"
