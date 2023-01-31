@@ -1,6 +1,6 @@
 {
   "image": "ubuntu",
-  "postCreateCommand": "pwd > loc.txt",
+  "postCreateCommand": "wpilib/roborio-cross-ubuntu",
   "features": {
   },
   "customizations": {
