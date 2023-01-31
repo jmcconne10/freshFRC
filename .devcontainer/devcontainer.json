@@ -1,6 +1,6 @@
 {
   "image": "ubuntu",
-  "postCreateCommand": "chmod u+x /workspaces/freshFRC/.devcontainer/scripts/install.sh && bash /workspaces/freshFRC/.devcontainer/scripts/install.sh",
+  "postCreateCommand": "pwd > loc.txt",
   "features": {
   },
   "customizations": {
