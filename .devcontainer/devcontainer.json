@@ -1,5 +1,5 @@
 {
-  "image": "wpilib/roborio-cross-ubuntu",
+  "image": "docker pull wpilib/roborio-cross-ubuntu:2023-22.04",
   "postCreateCommand": "pwd > loc.txt",
   "features": {
   },
