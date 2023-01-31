@@ -1,6 +1,6 @@
 {
-  "image": "docker pull wpilib/roborio-cross-ubuntu:2023-22.04",
-  "postCreateCommand": "pwd > loc.txt",
+  "image": "ubuntu",
+  "postCreateCommand": "pwd > pwd.out",
   "features": {
   },
   "customizations": {
