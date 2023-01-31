@@ -1,6 +1,6 @@
 {
   "image": "ubuntu",
-  "postCreateCommand": "bash devContainer-scripts/install.sh",
+  "postCreateCommand": "",
   "features": {
   },
   "customizations": {
