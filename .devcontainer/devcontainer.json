@@ -1,6 +1,6 @@
 {
   "image": "ubuntu",
-  "postCreateCommand": "chmod u+x scripts/install.sh || bash scripts/install.sh",
+  "postCreateCommand": "chmod u+x scripts/install.sh && bash scripts/install.sh",
   "features": {
   },
   "customizations": {
