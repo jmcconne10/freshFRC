@@ -1,6 +1,6 @@
 {
   "image": "ubuntu",
-  "postCreateCommand": "cd /opt && touch test.out",
+  "postCreateCommand": "bash scripts2/install.sh",
   "features": {
   },
   "customizations": {
