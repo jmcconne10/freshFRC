@@ -1,6 +1,6 @@
 {
   "image": "ubuntu",
-  "postCreateCommand": "pwd > pwd.out",
+  "postCreateCommand": "cd /opt && touch test.out",
   "features": {
   },
   "customizations": {
