@@ -1,7 +1,7 @@
 
 {
   "image": "ubuntu",
-  "postCreateCommand": "./gradlew installRoboRioToolchain || wget 'https://github.com/wpilibsuite/vscode-wpilib/releases/download/v2023.2.1/vscode-wpilib-2023.2.1.vsix' && mv vscode-wpilib-2023.2.1.vsix /opt ",
+  "postCreateCommand": "./gradlew installRoboRioToolchain && wget 'https://github.com/wpilibsuite/vscode-wpilib/releases/download/v2023.2.1/vscode-wpilib-2023.2.1.vsix' && mv vscode-wpilib-2023.2.1.vsix /opt ",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/git:1": {},
