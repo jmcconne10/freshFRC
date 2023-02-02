@@ -1,7 +1,7 @@
 
 {
   "image": "ubuntu",
-  "postCreateCommand": "bash devContainer-scripts/install.sh",
+  "postCreateCommand": "bash install.sh",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/git:1": {},
