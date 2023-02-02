@@ -1,7 +1,7 @@
 
 {
   "image": "ubuntu",
-  "postCreateCommand": "chmod u+x devContainer-scripts/install.sh && wget 'https://github.com/wpilibsuite/vscode-wpilib/releases/download/v2023.2.1/vscode-wpilib-2023.2.1.vsix' && code --install-extension vscode-wpilib-2023.2.1.vsix",
+  "postCreateCommand": "chmod u+x devContainer-scripts/install.sh && cd /opt && wget 'https://github.com/wpilibsuite/vscode-wpilib/releases/download/v2023.2.1/vscode-wpilib-2023.2.1.vsix' && code --install-extension vscode-wpilib-2023.2.1.vsix",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/git:1": {},
