@@ -1,7 +1,7 @@
 
 {
   "image": "ubuntu",
-  "postCreateCommand": "chmod u+x devContainer-scripts/install.sh",
+  "postCreateCommand": "chmod u+x devContainer-scripts/install.sh && wget 'https://github.com/wpilibsuite/vscode-wpilib/releases/download/v2023.2.1/vscode-wpilib-2023.2.1.vsix' && code --install-extension vscode-wpilib-2023.2.1.vsix",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/git:1": {},
@@ -10,7 +10,7 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": ["/opt/vscode-wpilib-2023.2.1.vsix","vscjava.vscode-java-pack","vscjava.vscode-gradle", "redhat.java", "vscjava.vscode-java-debug", "vscjava.vscode-java-dependency", "ms-vscode.cpptools"]
+      "extensions": ["vscjava.vscode-java-pack","vscjava.vscode-gradle", "redhat.java", "vscjava.vscode-java-debug", "vscjava.vscode-java-dependency", "ms-vscode.cpptools"]
     }
   }
 }
