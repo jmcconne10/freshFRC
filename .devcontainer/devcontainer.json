@@ -2,6 +2,10 @@
   "image": "ubuntu",
   "postCreateCommand": "chmod u+x devContainer-scripts/install.sh",
   "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+    "ghcr.io/devcontainers-contrib/features/wget-apt-get:1": {}
+      
   },
   "customizations": {
     "vscode": {
