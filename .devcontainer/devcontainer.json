@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:linux",
+  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
   "postCreateCommand": "chmod u+x devContainer-scripts/install.sh",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
